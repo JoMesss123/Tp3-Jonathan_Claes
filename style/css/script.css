@@ -1,6 +1,29 @@
 body {
   background-image: url("../../img/fog-rolls-through-forest-hillside.jpg");
+  background-position: fixed;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+  margin: auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+#hero {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
 }

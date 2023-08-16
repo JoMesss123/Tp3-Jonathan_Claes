@@ -1,9 +1,29 @@
 #hero{
     display: flex;
+    flex-direction: column;
     max-width: 1200px;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: auto;
+    height: 100vh;
+}
+
+.hero__title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #031801;
+    margin: 2rem;
+    font-family: 'Fleur De Leah', cursive;
+}
+
+.hero__subtitle{
+    font-size: 3.1rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-family: 'Grey Qo', cursive , bold;
+    text-shadow: 1px 1px rgb(167, 163, 163);
+
 }
 

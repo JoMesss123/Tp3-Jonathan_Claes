@@ -11,10 +11,10 @@
 
 .hero__title{
     font-size: 3.5rem;
-    font-weight: 700;
-    color: #031801;
+    font-weight: 600;
+    color:$color1;
     margin: 2rem;
-    font-family: 'Fleur De Leah', cursive;
+    font-family: $text-fleur;
 }
 
 .hero__subtitle{
@@ -22,8 +22,9 @@
     font-weight: 400;
     color: #000000;
     margin-bottom: 1rem;
-    font-family: 'Grey Qo', cursive , bold;
+    font-family: $text-grey;
     text-shadow: 1px 1px rgb(167, 163, 163);
+    font-weight: 500;
 
 }
 

@@ -36,8 +36,8 @@ header {
 
 .hero__title {
   font-size: 3.5rem;
-  font-weight: 700;
-  color: #031801;
+  font-weight: 600;
+  color: rgb(46, 46, 44);
   margin: 2rem;
   font-family: "Fleur De Leah", cursive;
 }
@@ -49,4 +49,80 @@ header {
   margin-bottom: 1rem;
   font-family: "Grey Qo", cursive, bold;
   text-shadow: 1px 1px rgb(167, 163, 163);
+  font-weight: 500;
+}
+
+#section2 {
+  background-color: rgb(46, 46, 44);
+  color: rgb(173, 178, 174);
+  padding: 20px;
+}
+#section2 p {
+  font-family: "Gabriela", cursive;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.section2__carte {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section2__carte-img {
+  display: flex;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.section2__carte-texte {
+  width: 66%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3 {
+  background-image: url("../../img/forest.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.section3__avis-titre {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(108, 108, 105);
+  font-family: "Fleur De Leah", cursive;
+}
+
+.section4__presentation {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(250, 235, 215, 0.123);
+  padding: 20px;
+}
+.section4__presentation h2 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(46, 46, 44);
+  margin: 2rem;
+  font-family: "Fleur De Leah", cursive;
+}
+.section4__presentation p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-indent: 5%;
 }

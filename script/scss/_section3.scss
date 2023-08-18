@@ -1,0 +1,17 @@
+#section3{
+    background-image: url('../../img/forest.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section3__avis-titre{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color:$color4;
+    
+    font-family: $text-fleur;
+}

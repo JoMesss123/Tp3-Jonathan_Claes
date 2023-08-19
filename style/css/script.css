@@ -93,15 +93,25 @@ header {
   background-size: cover;
   margin: auto;
   align-items: center;
-  text-align: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 .section3__avis-titre {
+  max-width: 1200px;
+  margin: auto;
   font-size: 3.5rem;
   font-weight: 600;
   color: rgb(108, 108, 105);
   font-family: "Fleur De Leah", cursive;
+}
+
+#section__demi {
+  background-color: rgb(79, 78, 75);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 4rem;
 }
 
 .section4__presentation {
@@ -125,4 +135,22 @@ header {
   margin-bottom: 20px;
   letter-spacing: 1.5px;
   text-indent: 5%;
+}
+
+footer {
+  background-color: rgb(46, 46, 44);
+  padding: 1rem;
+  color: rgb(83, 95, 92);
+  text-align: center;
+  font-family: "Gabriela", sans-serif;
+}
+footer a {
+  color: rgb(83, 95, 92);
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(79, 78, 75);
+}
+footer img {
+  width: 100%;
 }

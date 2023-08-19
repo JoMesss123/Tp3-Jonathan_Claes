@@ -4,14 +4,25 @@
     background-size: cover;
     margin: auto;
     align-items: center;
-    text-align: center;
+    
     justify-content: center;
+    padding: 2rem;
 }
 
 .section3__avis-titre{
+    max-width: 1200px;
+    margin: auto;
     font-size: 3.5rem;
     font-weight: 600;
-    color:$color4;
-    
+    color:$color4;    
     font-family: $text-fleur;
+}
+
+#section__demi{
+    background-color:$color3;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 4rem;
+
 }

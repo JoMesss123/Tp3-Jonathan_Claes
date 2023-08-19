@@ -1,0 +1,44 @@
+{"name" : "Massothérapie Marie Yannick Boyer",
+    "short_name" : "MarieMasso",
+    "icons" : [{
+        "src" : "img/icons/ying-yang(6).png",
+        "sizes" : "16x16",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    },{
+        "src" : "img/icons/ying-yang(5).png",
+        "sizes" : "24x24",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    },{
+        "src" : "img/icons/ying-yang(4).png",
+        "sizes" : "32x32",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    },{
+        "src" : "img/icons/ying-yang(3).png",
+        "sizes" : "64x64",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    },{
+        "src" : "img/icons/ying-yang(2).png",
+        "sizes" : "128x128",
+        "type" : "image/png",
+        "purpose" : "any maskable"
+    },{
+        "src" : "img/icons/ying-yang(1).png",
+        "sizes" : "256x256",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    },{
+        "src" : "img/icons/ying-yang.png",
+        "sizes" : "512x512",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    
+    }],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#2e0f05",
+    "theme_color": "#2e0f05"
+}

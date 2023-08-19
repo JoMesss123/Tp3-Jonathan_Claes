@@ -1,0 +1,25 @@
+#proposSection1{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+
+    img{
+       max-width:35rem;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        font-weight: 600;
+        color:$color1;
+        margin: 2rem;
+        font-family: 'Fleur De Leah', cursive;
+    }
+}

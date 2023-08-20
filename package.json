@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "tailwindcss": "^3.3.3",
+    "tw-element": "^1.0.5",
     "tw-elements": "^1.0.0-beta3"
   }
 }

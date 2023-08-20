@@ -1,5 +1,22 @@
 #proposSection2{
     background-color: $color2;
-    display: grid;
     
+    
+}
+
+.proposSection2__sous-section{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 3rem;
+
+    p{
+        font-family: $text-normal;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        letter-spacing: 1.5px;
+        text-indent: 5%;
+    }
 }

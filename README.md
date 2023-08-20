@@ -9,4 +9,6 @@ page daccueil
 
 page propos 
 1. ligthbox - https://tailwind-elements.com/docs/standard/components/lightbox/
-2. ombre au survol - https://tailwind-elements.com/docs/standard/content-styles/images/
+1.1 ombre au survol - https://tailwind-elements.com/docs/standard/content-styles/images/
+1.2 coin rond - https://tailwind-elements.com/docs/standard/content-styles/images/
+2. galerie - https://flowbite.com/docs/components/gallery/

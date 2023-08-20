@@ -1,0 +1,25 @@
+#proposSection3{
+    background-image: url(../../img/Sun-Shining-Through-Forest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 3rem;
+
+
+    .proposSection3__sous-section{
+        max-width: 1200px;
+        margin: auto;
+       
+        padding: 3rem;
+
+        p{
+            font-family: $text-normal;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            letter-spacing: 1.5px;
+            text-indent: 5%;
+        }
+    }
+
+}

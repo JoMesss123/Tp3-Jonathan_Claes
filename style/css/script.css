@@ -259,6 +259,31 @@ header {
   text-indent: 5%;
 }
 
+#tarifsection1 {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tarifsection1__titre {
+  padding-bottom: 2rem;
+}
+.tarifsection1__titre h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(46, 46, 44);
+  margin: 2rem;
+  font-family: "Fleur De Leah", cursive;
+}
+
+.tarifsection1__btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 footer {
   background-color: rgb(46, 46, 44);
   padding: 1rem;

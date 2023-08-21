@@ -12,3 +12,7 @@ page propos
 1.1 ombre au survol - https://tailwind-elements.com/docs/standard/content-styles/images/
 1.2 coin rond - https://tailwind-elements.com/docs/standard/content-styles/images/
 2. galerie - https://flowbite.com/docs/components/gallery/
+
+page tarif
+1. bouton - https://flowbite.com/docs/components/buttons/
+2. card - https://daisyui.com/components/card/

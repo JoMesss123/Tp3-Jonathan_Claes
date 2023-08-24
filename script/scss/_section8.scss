@@ -1,0 +1,33 @@
+#section8{
+    background-color: $color5;
+}
+
+.section8__container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+    padding: 2rem;
+
+    h2{
+        font-size: 4.5rem;        
+        color:$color1;    
+        font-family: $text-fleur;
+        margin: 2rem;
+        
+    }
+
+}
+
+.section8__container-titre{
+    text-align: start;
+}
+
+.section8__container-titre2{
+    text-align: center;
+}
+
+.section8__container-titre3{
+    text-align: end;
+}

@@ -1,0 +1,41 @@
+#section7{ 
+    background-image: url('../../img/forest.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    align-items: center;    
+    justify-content: center;
+    padding: 2rem;
+}
+
+.section7__container{
+    
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+
+    h2{
+        font-size: 3.5rem;        
+        color:$color5;    
+        font-family: $text-fleur;
+        margin-bottom: 2rem;
+        
+    }
+    
+}
+
+.section7__container-texte{
+    display: flex;
+    flex-direction: row;
+
+    p{
+        width: 50%;
+        font-size: 1.5rem;    
+        color:$color5;    
+        font-family: $text-normal;
+        margin: 2rem;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+}

@@ -142,11 +142,17 @@ header {
 }
 
 #section__demi {
-  background-color: rgb(79, 78, 75);
+  background-color: rgb(46, 46, 44);
   align-items: center;
   text-align: center;
   justify-content: center;
   padding: 4rem;
+}
+#section__demi h2 {
+  font-size: 3.5rem;
+  color: rgb(173, 178, 174);
+  font-family: "Fleur De Leah", cursive;
+  margin-bottom: 2rem;
 }
 
 .section4__presentation {
@@ -189,6 +195,156 @@ header {
   letter-spacing: 1.5px;
   text-indent: 5%;
   line-height: 2rem;
+}
+
+#section5 {
+  background-image: url("../../img/forest.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.section5__presentation {
+  background-color: rgb(173, 178, 174);
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+
+.section5__presentation-texte {
+  padding: 2rem;
+  width: 50%;
+  text-align: center;
+}
+.section5__presentation-texte h2 {
+  font-size: 3.5rem;
+  color: rgb(46, 46, 44);
+  font-family: "Fleur De Leah", cursive;
+}
+.section5__presentation-texte p {
+  font-size: 1.5rem;
+  color: rgb(46, 46, 44);
+  font-family: "Gabriela", sans-serif;
+  margin: 2rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.section5__presentation-img {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.section5__presentation-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#section6 {
+  background-color: rgb(46, 46, 44);
+}
+
+.section6__container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.section6__container h2 {
+  font-size: 3.5rem;
+  color: rgb(173, 178, 174);
+  font-family: "Fleur De Leah", cursive;
+  margin: 2rem;
+}
+
+.section6__container-texte {
+  max-width: 1000px;
+}
+.section6__container-texte p {
+  font-size: 1.5rem;
+  color: rgb(173, 178, 174);
+  font-family: "Gabriela", sans-serif;
+  margin: 2rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+#section7 {
+  background-image: url("../../img/forest.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.section7__container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.section7__container h2 {
+  font-size: 3.5rem;
+  color: rgb(173, 178, 174);
+  font-family: "Fleur De Leah", cursive;
+  margin-bottom: 2rem;
+}
+
+.section7__container-texte {
+  display: flex;
+  flex-direction: row;
+}
+.section7__container-texte p {
+  width: 50%;
+  font-size: 1.5rem;
+  color: rgb(173, 178, 174);
+  font-family: "Gabriela", sans-serif;
+  margin: 2rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+#section8 {
+  background-color: rgb(173, 178, 174);
+}
+
+.section8__container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.section8__container h2 {
+  font-size: 4.5rem;
+  color: rgb(46, 46, 44);
+  font-family: "Fleur De Leah", cursive;
+  margin: 2rem;
+}
+
+.section8__container-titre {
+  text-align: start;
+}
+
+.section8__container-titre2 {
+  text-align: center;
+}
+
+.section8__container-titre3 {
+  text-align: end;
 }
 
 #proposSection1 {

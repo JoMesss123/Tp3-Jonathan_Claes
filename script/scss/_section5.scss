@@ -1,0 +1,58 @@
+#section5{
+    background-image: url('../../img/forest.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    align-items: center;    
+    justify-content: center;
+    padding: 2rem;
+}
+
+.section5__presentation{
+    background-color: $color5;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.section5__presentation-texte{  
+    padding:2rem;
+    
+    width: 50%;
+    text-align: center;
+
+    h2{
+        font-size: 3.5rem;
+        
+        color:$color1;    
+        font-family: $text-fleur;
+        
+    }
+
+    p{
+        font-size: 1.5rem;    
+        color:$color1;    
+        font-family: $text-normal;
+        margin: 2rem;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+    
+}
+
+.section5__presentation-img{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    img{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+

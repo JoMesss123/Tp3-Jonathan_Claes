@@ -7,10 +7,14 @@
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
     padding: 3rem;
 
     p{
+        color:$color5;
         font-family: $text-normal;
         font-size: 1.2em;
         margin-bottom: 20px;
@@ -19,10 +23,18 @@
         text-align: justify;
     }
 }
-
-.proposSection4__texte{
-    grid-column: 1/3;
+.proposSection4__img{
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
+
+.proposSection4__img2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 
 .proposSection4__texte1{
     grid-column: 2/4;

@@ -1,4 +1,4 @@
-#tarifsection2{
+#tarifsection6{
     max-width: 1200px;
     margin: auto;
 
@@ -13,8 +13,16 @@
     button{
         color:$color1;
     }
+
+    p{
+        font-family: $text-normal;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        letter-spacing: 1.5px;
+        color:$color1;
+    }
 }
 
-.tarifsection2__card{
+.tarifsection6__card{
     margin-bottom:3rem;
 }

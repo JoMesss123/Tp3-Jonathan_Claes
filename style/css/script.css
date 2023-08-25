@@ -555,6 +555,143 @@ header {
   max-width: 1200px;
   margin: auto;
 }
+#tarifsection2 h2 {
+  color: rgb(46, 46, 44);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Grey Qo", cursive, bold;
+}
+#tarifsection2 button {
+  color: rgb(46, 46, 44);
+}
+
+.tarifsection2__card {
+  margin-bottom: 3rem;
+}
+
+#tarifsection3 {
+  max-width: 1200px;
+  margin: auto;
+}
+#tarifsection3 h2 {
+  color: rgb(46, 46, 44);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Grey Qo", cursive, bold;
+}
+#tarifsection3 button {
+  color: rgb(46, 46, 44);
+}
+
+.tarifsection3__card {
+  margin-bottom: 3rem;
+}
+
+#tarifsection4 {
+  max-width: 1200px;
+  margin: auto;
+}
+#tarifsection4 h2 {
+  color: rgb(46, 46, 44);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Grey Qo", cursive, bold;
+}
+#tarifsection4 button {
+  color: rgb(46, 46, 44);
+}
+#tarifsection4 p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: rgb(46, 46, 44);
+}
+
+.tarifsection4__card {
+  margin-bottom: 3rem;
+}
+
+#tarifsection5 {
+  max-width: 1200px;
+  margin: auto;
+}
+#tarifsection5 h2 {
+  color: rgb(46, 46, 44);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Grey Qo", cursive, bold;
+}
+#tarifsection5 button {
+  color: rgb(46, 46, 44);
+}
+#tarifsection5 p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: rgb(46, 46, 44);
+}
+
+.tarifsection5__card {
+  margin-bottom: 3rem;
+}
+
+#tarifsection6 {
+  max-width: 1200px;
+  margin: auto;
+}
+#tarifsection6 h2 {
+  color: rgb(46, 46, 44);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Grey Qo", cursive, bold;
+}
+#tarifsection6 button {
+  color: rgb(46, 46, 44);
+}
+#tarifsection6 p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: rgb(46, 46, 44);
+}
+
+.tarifsection6__card {
+  margin-bottom: 3rem;
+}
+
+#tarifsection7 {
+  max-width: 1200px;
+  margin: auto;
+}
+#tarifsection7 h2 {
+  color: rgb(46, 46, 44);
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Grey Qo", cursive, bold;
+}
+#tarifsection7 button {
+  color: rgb(46, 46, 44);
+}
+#tarifsection7 p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: rgb(46, 46, 44);
+}
+
+.tarifsection7__card {
+  margin-bottom: 3rem;
+}
 
 footer {
   background-color: rgb(46, 46, 44);

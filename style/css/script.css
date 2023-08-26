@@ -457,6 +457,7 @@ header {
 .proposSection3__container-img img {
   border-radius: 20px;
   margin: 2rem;
+  width: 33%;
 }
 
 #proposSection4 {

@@ -17,6 +17,22 @@
     grid-gap: 1rem;
     align-items: center;
     justify-items: center;
+
+    h5{
+        font-family: $text-fleur;
+        font-size: 3em;      
+        letter-spacing: 1.5px;
+        color:$color5;
+        
+    }
+
+    p{
+        font-family: $text-normal;
+        font-size: 1.5em;
+        letter-spacing: 1.5px;
+        color:$color5;
+        
+    }
 }
 
 .service__texte{

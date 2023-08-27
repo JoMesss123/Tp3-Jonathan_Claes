@@ -721,6 +721,18 @@ header {
   align-items: center;
   justify-items: center;
 }
+.services__containeur h5 {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 3em;
+  letter-spacing: 1.5px;
+  color: rgb(173, 178, 174);
+}
+.services__containeur p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  color: rgb(173, 178, 174);
+}
 
 .service__texte {
   grid-column: 1/6;

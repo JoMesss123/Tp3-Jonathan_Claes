@@ -1,4 +1,5 @@
 #services__presentation{
+ 
     max-width: 1200px;
     display:flex;
     flex-direction: column;
@@ -18,13 +19,13 @@
         padding:2rem
     }
 
-    p{
-        
-        font-family: $text-normal;
-        font-size: 1.2em;
-        
-        letter-spacing: 1.5px;
-        
-        
-    }
+    
+}
+
+.services__presentation-btn{
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    color:$color5;
+    font-size: 2rem;
 }

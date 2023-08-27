@@ -4,17 +4,26 @@
     flex-direction: column;
     max-width: 1200px;
     margin: auto;
+    height: 100vh;
 }
 
 .tarifsection1__titre{
         padding-bottom: 2rem;
 
         h1{
-            font-size: 3.5rem;
+            font-size: 4rem;
             font-weight: 600;
             color:$color1;
             margin: 2rem;
-            font-family: 'Fleur De Leah', cursive;
+            font-family: $text-fleur;
+        }
+
+        p{
+            font-size: 3rem;
+            text-align: center;
+            color:$color1;
+            margin: 2rem;
+            font-family: $text-grey;
         }
     }
 

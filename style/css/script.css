@@ -532,17 +532,25 @@ header {
   flex-direction: column;
   max-width: 1200px;
   margin: auto;
+  height: 100vh;
 }
 
 .tarifsection1__titre {
   padding-bottom: 2rem;
 }
 .tarifsection1__titre h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 600;
   color: rgb(46, 46, 44);
   margin: 2rem;
   font-family: "Fleur De Leah", cursive;
+}
+.tarifsection1__titre p {
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(46, 46, 44);
+  margin: 2rem;
+  font-family: "Grey Qo", cursive, bold;
 }
 
 .tarifsection1__btn {
@@ -695,6 +703,17 @@ header {
 }
 
 #services {
+  background-image: url(../../img/champignon.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 3rem;
+}
+
+.services__containeur {
+  max-width: 1200px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -704,7 +723,7 @@ header {
 }
 
 .service__texte {
-  grid-column: 2/6;
+  grid-column: 1/6;
   grid-row: 2/3;
 }
 .service__texte h1 {
@@ -714,11 +733,6 @@ header {
   letter-spacing: 1.5px;
   color: rgb(46, 46, 44);
   padding: 2rem;
-}
-.service__texte p {
-  font-family: "Gabriela", sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 1.5px;
 }
 
 #services__presentation {
@@ -739,10 +753,13 @@ header {
   letter-spacing: 1.5px;
   padding: 2rem;
 }
-#services__presentation p {
-  font-family: "Gabriela", sans-serif;
-  font-size: 1.2em;
-  letter-spacing: 1.5px;
+
+.services__presentation-btn {
+  text-decoration: underline;
+  position: absolute;
+  bottom: 0;
+  color: rgb(173, 178, 174);
+  font-size: 2rem;
 }
 
 #services__sous-section {

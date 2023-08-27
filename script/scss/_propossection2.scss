@@ -9,7 +9,7 @@
     margin: auto;   
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repaeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     padding: 20px;
     p{
         border-radius: 20px;
@@ -40,10 +40,13 @@
     justify-content: center;
     
 }
-.proposSection2__img2{    
+.proposSection2__img2{ 
+    display: flex;   
     grid-column: 2/4;
     grid-row: 2/4;
     padding:2rem;
     z-index: 1;
     opacity: .5;
+    align-items: center;
+    justify-content: center;
 }

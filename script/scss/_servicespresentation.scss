@@ -1,0 +1,30 @@
+#services__presentation{
+    max-width: 1200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height:  100vh;
+    margin: auto;
+    color:$color1;
+
+    h1{
+        font-family: $text-fleur;
+        font-size: 4em;
+        margin-bottom: 20px;
+        letter-spacing: 1.5px;
+        
+        padding:2rem
+    }
+
+    p{
+        
+        font-family: $text-normal;
+        font-size: 1.2em;
+        
+        letter-spacing: 1.5px;
+        
+        
+    }
+}

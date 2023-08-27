@@ -694,6 +694,74 @@ header {
   margin-bottom: 3rem;
 }
 
+#services {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.service__texte {
+  grid-column: 2/6;
+  grid-row: 2/3;
+}
+.service__texte h1 {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 4em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: rgb(46, 46, 44);
+  padding: 2rem;
+}
+.service__texte p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+}
+
+#services__presentation {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  margin: auto;
+  color: rgb(46, 46, 44);
+}
+#services__presentation h1 {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 4em;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  padding: 2rem;
+}
+#services__presentation p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+}
+
+#services__sous-section {
+  background-color: rgb(46, 46, 44);
+  color: rgb(173, 178, 174);
+  padding: 3rem;
+}
+
+.services__sous-section {
+  max-width: 1200px;
+  margin: auto;
+}
+.services__sous-section p {
+  font-family: "Gabriela", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1.5px;
+  text-align: justify;
+}
+
 footer {
   background-color: rgb(46, 46, 44);
   padding: 1rem;

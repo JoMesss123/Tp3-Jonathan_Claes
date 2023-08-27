@@ -1,0 +1,32 @@
+#services{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.service__texte{
+    grid-column: 2/6;
+    grid-row: 2/3;
+
+    h1{
+        font-family: $text-fleur;
+        font-size: 4em;
+        margin-bottom: 20px;
+        letter-spacing: 1.5px;
+        color:$color1;
+        padding:2rem;
+    }
+
+    p{
+        font-family: $text-normal;
+        font-size: 1.2em;
+        
+        letter-spacing: 1.5px;
+        
+        
+    }
+}

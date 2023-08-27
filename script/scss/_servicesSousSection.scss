@@ -1,0 +1,18 @@
+#services__sous-section{
+    background-color: $color1;
+    color: $color5;
+    padding: 3rem;
+}
+
+.services__sous-section{
+    max-width: 1200px;
+    margin: auto;       
+
+    p{
+        font-family: $text-normal;
+        font-size: 1.2em;
+        letter-spacing: 1.5px;
+        text-align: justify;
+       
+    }
+}

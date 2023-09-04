@@ -1,5 +1,8 @@
 # Tp3-Jonathan_Claes
 
+page dacceuil
+    widget- actif pour seulement 200 view par mois 
+
 composante tailwind
 page daccueil
 1. header - https://tailwind-elements.com/docs/standard/navigation/navbar/
@@ -16,3 +19,5 @@ page propos
 page tarif
 1. bouton - https://flowbite.com/docs/components/buttons/
 2. card - https://daisyui.com/components/card/
+
+et plien d autre comme modal form etc...

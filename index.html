@@ -15,14 +15,14 @@
   <link rel="stylesheet" href="style/css/script.css">
   <link rel="stylesheet" href="style/css/normalize.css">
   <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#adb2ae">
+  <meta name="theme-color" content="#2e2e2c">
   <meta name="apple-mobile-web-app-status-bar-style" content="#2e2e2c">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="MariMasso">
+  <meta name="apple-mobile-web-app-title" content="MarieMasso">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="MarieMasso">
   <meta name="msapplication-TileColor" content="#2e0f05">
-  <meta name="msapplication-TileImage" content="img/icon/maskable_iconx144.png">
+  <meta name="msapplication-TileImage" content="img/icon/maskable_icon_x144.png">
   <meta name="msapplication-config" content="image/browserconfig.xml">
   <script>
     // Register service worker.
@@ -54,6 +54,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/datepicker.min.js" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/install.js"></script>
 
 </head>
 
@@ -114,6 +115,8 @@
               <a class="p-0 ttext-rose-500 transition duration-200 hover:text-lime-900 hover:ease-in-out focus:text-neutral-700 disabled:text-rose-500 motion-reduce:transition-none dark:text-rose-500 dark:hover:text-lime-900 dark:focus:text-amber-800 lg:px-2 [&.active]::text-amber-800 dark:[&.active]::text-amber-800"
                 href="contact.html" data-te-nav-link-ref>Me contacter</a>
             </li>
+            <li><button class="nav-link px-lg-4 px-2" id="butInstall"
+              aria-label="Install" hidden>Installer la PWA</button></li>
 
           </ul>
         </div>

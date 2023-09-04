@@ -25,7 +25,7 @@
         "src" : "img/icon/maskable_icon_x128.png",
         "sizes" : "128x128",
         "type" : "image/png",
-        "purpose" : "any maskable"
+        "purpose" : "maskable"
     },{
         "src" : "img/icon/maskable_icon_x192.png",
         "sizes" : "192x192",
@@ -36,6 +36,16 @@
         "sizes" : "357x357",
         "type" : "image/png",
         "purpose" : "maskable"
+    },{
+        "src" : "img/icon/maskable_icon_x512.png",
+        "sizes" : "512x512",
+        "type" : "image/png",
+        "purpose" : "maskable"
+    },{
+        "src" : "img/icon/logo2.4(1).png",
+        "sizes" : "268x253",
+        "type" : "image/png",
+        "purpose" : "any"
     
     }],
     "start_url": "index.html",

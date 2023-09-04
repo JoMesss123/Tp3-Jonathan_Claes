@@ -1,11 +1,12 @@
-const CACHE_NAME = 'static-cache-v7';
+const CACHE_NAME = 'static-cache-v10';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
     
     'index.html',
-    'propos.html',
+    'ptarif.html',
     'contact.html',
+    'offline.html',
 
 
 ];
@@ -52,7 +53,7 @@ self.addEventListener('fetch', (evt) => {
         .catch(() => {
             return caches.open(CACHE_NAME)
                 .then((cache) => {
-                    return cache.match('/Cochenille/PointNClick/offline.html');
+                    return cache.match('index.html');
                 });
         })
     );

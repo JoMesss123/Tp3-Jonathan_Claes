@@ -138,17 +138,19 @@
                         <form action="mailto:info@mariemasso.com" enctype="text/plain" method="POST">
                             <div class="contactsection__presentation-form-content-form-name">
                                 <label for="name" class="text-black">Nom :</label>
-                                <input type="text" name="name" id="name" placeholder="Votre nom"
+                                <input type="text" name="name" id="name" placeholder="Votre nom" aria-label="name"
                                     class="w-full px-4 py-2 mt-2 text-black glass border-gray-300 rounded-lg  dark:border-gray-600 focus:border-rose-500 focus:ring-0">
                             </div>
                             <div class="contactsection__presentation-form-content-form-email">
                                 <label for="email" class="text-black">Courriel :</label>
                                 <input type="email" name="email" id="email" placeholder="Votre courriel"
+                                    aria-label="email"
                                     class="w-full px-4 py-2 mt-2 text-black glass border-gray-300 rounded-lg  dark:border-gray-600 focus:border-rose-500 focus:ring-0">
                             </div>
                             <div class="contactsection__presentation-form-content-form-message">
                                 <label for="message" class="text-black ">Message :</label>
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"
+                                    aria-label="Message"
                                     class="w-full px-4 py-2 mt-2 text-black  border-gray-300 rounded-lg glass  dark:border-gray-600 focus:border-rose-500 focus:ring-0">
                                 </textarea>
 
@@ -205,41 +207,122 @@
 
                                 <div
                                     class="block max-w-md rounded-lg bg-transparent p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
-                                    <form id="form__rendez-vous" method="post" action="" data-te-validation-init
-                                        data-te-active-validation="true">
-                                        <!--Name input-->
-                                        <div class="relative mb-6" data-te-input-wrapper-init data-te-validate="input"
-                                            data-te-validation-ruleset="isRequired|isLongerThan(4)">
-                                            <input type="text"
-                                                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none text-neutral-200 placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                                                id="Nom" placeholder="Nom" />
-                                            <label for="Nom"
-                                                class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none  peer-focus:text-primary">Nom
-                                            </label>
+                                    <form id="form__rendez-vous" method="post" action="mailto:info@mariemasso.com" data-te-validation-init
+                                        data-te-active-validation="true" >
+                                        <fieldset>
+                                            <legend class="text-neutral-200">Informations personelles</legend>
+                                            <!--Name input-->
+                                            <div class="relative mb-6" data-te-input-wrapper-init
+                                                data-te-validate="input"
+                                                data-te-validation-ruleset="isRequired|isLongerThan(3)">
+                                                <input type="text"
+                                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none text-neutral-200 placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="Nom" placeholder="Nom" aria-label="First name" />
+                                                <label for="Nom"
+                                                    class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none  peer-focus:text-primary">Nom
+                                                </label>
 
-                                        </div>
+                                            </div>
 
-                                        <!--Email input-->
-                                        <div class="relative mb-6" data-te-input-wrapper-init data-te-validate="input"
-                                            data-te-validation-ruleset="isRequired|isEmail|contains(test)">
-                                            <input type="email"
-                                                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none text-neutral-200 placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                                                id="courriel" placeholder="Email address" />
-                                            <label for="courriel"
-                                                class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none  peer-focus:text-primary">Adresse
-                                                Courriel
-                                            </label>
-                                        </div>
+                                            <!--LastName input-->
+                                            <div class="relative mb-6" data-te-input-wrapper-init
+                                                data-te-validate="input"
+                                                data-te-validation-ruleset="isRequired|isLongerThan(3)">
+                                                <input type="text"
+                                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none text-neutral-200 placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="Prenom" placeholder="Prenom" aria-label="Last name" />
+                                                <label for="Prenom"
+                                                    class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none  peer-focus:text-primary">Prénom
+                                                </label>
 
-                                        <div class="relative mb-3" data-te-datepicker-init data-te-input-wrapper-init
-                                            data-te-validate="input" data-te-validation-ruleset="isRequired|isDate">
-                                            <input type="text"
-                                                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                                                placeholder="Select a date" />
-                                            <label
-                                                class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary">Selectionner
-                                                une date</label>
-                                        </div>
+                                            </div>
+
+                                            <!--Tel input-->
+                                            <div class="relative mb-6" data-te-input-wrapper-init
+                                                data-te-validate="input"
+                                                data-te-validation-ruleset="isRequired|isLongerThan(3)|isPhone">
+                                                <input type="tel"
+                                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none text-neutral-200 placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="telephone" placeholder="telephone" aria-label="Last name" />
+                                                <label for="telephone"
+                                                    class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none  peer-focus:text-primary">téléphone
+                                                </label>
+
+                                            </div>
+
+                                            <!--Email input-->
+                                            <div class="relative mb-6" data-te-input-wrapper-init
+                                                data-te-validate="input"
+                                                data-te-validation-ruleset="isEmail|contains(test)">
+                                                <input type="email"
+                                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none text-neutral-200 placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="courriel" placeholder="Email address" aria-label="courriel" />
+                                                <label for="courriel"
+                                                    class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-200 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none  peer-focus:text-primary">Adresse
+                                                    Courriel
+                                                </label>
+                                            </div>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <legend class="text-neutral-200">Horraire: du Mardi au samedi</legend>
+                                            <!--Time aera-->
+                                            <div class="relative mb-6" data-te-datepicker-init
+                                                data-te-input-wrapper-init data-te-validate="input"
+                                                data-te-validation-ruleset="isRequired|isDate">
+                                                <input type="text"
+                                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    placeholder="Select a date" aria-label="date" />
+                                                <label
+                                                    class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary">Selectionner
+                                                    une date</label>
+                                            </div>
+                                            <legend class="text-neutral-200">Horraire: de 15h a 20h</legend>
+                                            <div class="relative mb-6" data-te-timepicker-init
+                                                data-te-input-wrapper-init data-te-validate="input"
+                                                data-te-validation-ruleset="isRequired|is24hFormat"
+                                                id="timepicker-max-time">
+                                                <input type="text"
+                                                    class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                    id="time" placeholder="Select a time" aria-label="time" />
+                                                <label for="time"
+                                                    class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary">Selectionner
+                                                    une heure</label>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset>
+                                            <div class="relative mb-6">
+                                                <label data-te-select-label-ref class="text-neutral-200">Choisir vos
+                                                    massages</label>
+                                                <select data-te-select-init multiple id="massages">
+                                                    <option value="suédois">Massage Suédois</option>
+                                                    <option value="détente">Massage Détente</option>
+                                                    <option value="enciente">Massage Femme Enciente</option>
+                                                    <option value="therapeutique">Massage thérapeutique</option>
+                                                    <option value="fascia">Fasciathérapie</option>
+                                                    <option value="tissus_profond">Massage Tissus Profond</option>
+                                                    <option value="chaise">Massage sur chaise</option>
+                                                    <option value="bamboo">Massage de bambous</option>
+                                                    <option value="analyse">Analyse posturalw</option>
+                                                    <option value="gua-sha">Massage avec Gua-Sha</option>
+                                                    <option value="ventoouse">Massage aux ventouses</option>
+                                                    <option value="cranienne">Thérapie Crânienne</option>
+                                                    <option value="enfant">Massage pour enfants</option>
+                                                </select>
+
+                                            </div>
+                                            <div class="relative mb-6">
+                                                <label data-te-select-label-ref class="text-neutral-200">Choisir vos
+                                                    massages</label>
+                                                <select data-te-select-init  id="massages">
+                                                    <option value="60">60 minutess</option>
+                                                    <option value="90">90 minutes</option>
+                                                    <option value="30">30 minutes (enfants)</option>
+                                                   
+                                                </select>
+
+                                            </div>
+                                        </fieldset>
 
                                         <!--Message textarea-->
                                         <div class="relative mb-6" data-te-input-wrapper-init>

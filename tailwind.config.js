@@ -1,12 +1,24 @@
   import {
     Validation,
     Input,
-    Datepicker,
+    Datepicker,    
     Timepicker,
     initTE,
+    Select,
+    
   } from "tw-elements";
   
-  initTE({ Validation, Input, Datepicker, Timepicker });
+  initTE({ Validation, Input, Datepicker, Timepicker, Select });
+
+  const pickerMaxTime = document.querySelector("#timepicker-max-time");
+const Timepicker = new Timepicker(pickerMaxTime, {
+  maxTime: "20:00",
+});
+
+const pickerMinTime = document.querySelector("#timepicker-max-time");
+const timepickerMinTime = new Timepicker(pickerMinTime, {
+  minTime: "15:00",
+});
   
   const fullValidationDisposeBtn = document.getElementById("dispose");
   const fullValidationForm = document.getElementById("form__rendez-vous");

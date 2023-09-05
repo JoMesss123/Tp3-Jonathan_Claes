@@ -1,12 +1,12 @@
-const CACHE_NAME = 'static-cache-v10';
+const CACHE_NAME = 'static-cache-v14';
 
 //Add list of files to cache here.
 const FILES_TO_CACHE = [
     
     'index.html',
-    'ptarif.html',
+    'tarif.html',
     'contact.html',
-    'offline.html',
+    
 
 
 ];
@@ -22,6 +22,10 @@ self.addEventListener('install', (evt) => {
     );
     self.skipWaiting();
 });
+
+
+
+
 
 self.addEventListener('activate', (evt) => {
     console.log('[ServiceWorker] Activate');

@@ -41,12 +41,6 @@
         "sizes" : "512x512",
         "type" : "image/png",
         "purpose" : "maskable"
-    },{
-        "src" : "img/icon/logo2.4(1).png",
-        "sizes" : "268x253",
-        "type" : "image/png",
-        "purpose" : "any"
-    
     }],
     "start_url": "index.html",
     "display": "standalone",

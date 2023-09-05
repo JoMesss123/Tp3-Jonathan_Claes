@@ -890,7 +890,6 @@ footer img {
     grid-column: 1/2;
     grid-row: 3/5;
     text-align: center;
-    vertical-align: auto;
     justify-content: center;
   }
   .section5__presentation {
@@ -956,13 +955,17 @@ footer img {
   }
   .tarifsection1__titre p {
     background-color: rgb(173, 178, 174);
-    padding: 1 rem;
+    padding: 1rem;
+  }
+  #tarifsection1 {
+    margin-bottom: 2rem;
   }
   .tarifsection1__btn {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 2rem;
   }
   .services__containeur {
     grid-template-columns: repeat(3, 1fr);
@@ -970,6 +973,11 @@ footer img {
   .service__texte {
     grid-column: 1/4;
     grid-row: 1/2;
+  }
+}
+@media screen and (max-width: 650px) {
+  .tarifsection1__btn {
+    visibility: hidden;
   }
 }
 @media screen and (max-width: 600px) {

@@ -10,6 +10,11 @@
   
   initTE({ Validation, Input, Datepicker, Timepicker, Select });
 
+  const confirmDateOnSelect = document.getElementById('datepicker-close-without-confirmation');
+new Datepicker(confirmDateOnSelect, {
+  confirmDateOnSelect: true,
+});
+
   const pickerMaxTime = document.querySelector("#timepicker-max-time");
 const Timepicker = new Timepicker(pickerMaxTime, {
   maxTime: "20:00",

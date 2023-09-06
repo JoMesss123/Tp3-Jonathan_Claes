@@ -866,6 +866,9 @@ footer img {
   }
 }
 @media screen and (max-width: 900px) {
+  .hero__subtitle {
+    font-size: 2.5rem;
+  }
   .service__texte {
     grid-column: 1/3;
     grid-row: 1/2;
@@ -913,6 +916,7 @@ footer img {
     grid-row: 3/5;
   }
   .proposSection2__img {
+    grid-column: 1/2;
     grid-row: 1/3;
   }
   .proposSection2__img2 {
@@ -948,6 +952,9 @@ footer img {
   }
   .section7__container-texte p {
     width: 100%;
+  }
+  #proposSection1 img {
+    width: 25rem;
   }
   .proposSection4__sous-section {
     display: flex;

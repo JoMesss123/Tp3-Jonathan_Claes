@@ -33,7 +33,7 @@ const validateForm = () => {
         setSuccess(message);
     }
 
-    const isValidEmail = (email) => {
+    const isValidEmail = email => {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
 

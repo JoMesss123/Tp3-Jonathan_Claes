@@ -825,6 +825,24 @@ header {
   height: 28.125rem;
 }
 
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: green;
+}
+
+.input-control.error input {
+  border-color: red;
+}
+
+.input-control .errorMessage {
+  color: red;
+  font-size: 0.8rem;
+  height: 1rem;
+}
+
 footer {
   background-color: rgb(46, 46, 44);
   padding: 1rem;

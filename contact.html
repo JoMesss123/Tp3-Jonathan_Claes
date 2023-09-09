@@ -57,6 +57,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script type="text/javascript" src="tailwind.config.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+   
 
 </head>
 
@@ -141,30 +142,34 @@
                         <p class="text-center text-black">Tel : <a href="tel:5146275821">(514)-627-5821</a></p>
                     </div>
                     <div class="contactsection__presentation-form-content-form">
-                        <form action="mailto:info@mariemasso.com" enctype="text/plain" method="POST">
-                            <div class="contactsection__presentation-form-content-form-name">
+                        <form action="mailto:info@mariemasso.com" onsubmit="return validateForm()" enctype="text/plain" method="POST">
+                            <div class="input-control">
                                 <label for="name" class="text-black">Nom :</label>
                                 <input type="text" name="name" id="name" placeholder="Votre nom" aria-label="name"
-                                    class="w-full px-4 py-2 mt-2 text-black glass border-gray-300 rounded-lg  dark:border-gray-600 focus:border-rose-500 focus:ring-0">
+                                    class="w-full px-4 py-2 mt-2 text-black glass  rounded-lg  border-gray-600 focus:border-rose-500 focus:ring-0">
+                                    <div class="errorMessage"></div>
                             </div>
-                            <div class="contactsection__presentation-form-content-form-email">
+                            <div class="input-control">
                                 <label for="email" class="text-black">Courriel :</label>
                                 <input type="email" name="email" id="email" placeholder="Votre courriel"
                                     aria-label="email"
-                                    class="w-full px-4 py-2 mt-2 text-black glass border-gray-300 rounded-lg  dark:border-gray-600 focus:border-rose-500 focus:ring-0">
+                                    class="w-full px-4 py-2 mt-2 text-black glass  rounded-lg border-gray-600 focus:border-rose-500 focus:ring-0">
+                                    <div class="errorMessage"></div>
                             </div>
-                            <div class="contactsection__presentation-form-content-form-message">
+                            <div class="input-control">
                                 <label for="message" class="text-black ">Message :</label>
                                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message"
                                     aria-label="Message"
-                                    class="w-full px-4 py-2 mt-2 text-black  border-gray-300 rounded-lg glass  dark:border-gray-600 focus:border-rose-500 focus:ring-0">
+                                    class="w-full px-4 py-2 mt-2 text-black   rounded-lg glass  border-gray-600 focus:border-rose-500 focus:ring-0">
                                 </textarea>
+                                <div class="errorMessage"></div>
 
                             </div>
                             <div class="contactsection__presentation-form-content-form-submit">
                                 <button type="submit" data-te-ripple-init data-te-ripple-color="hsl(107, 55.7%, 38%)"
                                     class="inline-block rounded bg-neutral-300/40 px-6 pb-2 pt-2.5  font-medium uppercase leading-normal text-black shadow-md transition duration-150 ease-in-out hover:bg-neutral-300 hover:shadow-lg focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-neutral-400 active:shadow-lg">Envoyer</button>
                             </div>
+                            <script src="js/validation.js" ></script>
                         </form>
                     </div>
                 </div>

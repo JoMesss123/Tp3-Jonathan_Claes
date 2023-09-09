@@ -22,7 +22,7 @@ page tarif
 1. bouton - https://flowbite.com/docs/components/buttons/
 2. card - https://daisyui.com/components/card/
 
-et plien d autre comme modal form etc...
+**et plien d autre comme modal form etc...**
 
 
 j'ai utiliser la validation personnaliser sur le formulaire de contact et une validation personnaliser de tailwind sur le form du rendez-vous .

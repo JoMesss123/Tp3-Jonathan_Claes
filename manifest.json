@@ -42,7 +42,7 @@
         "type" : "image/png",
         "purpose" : "maskable"
     }],
-    "start_url": "index.html",
+    "start_url": "Tp3-Jonathan_Claes/index.html",
     "display": "standalone",
     "background_color": "#2e2e2c",
     "theme_color": "#adb2ae",
@@ -58,6 +58,6 @@
         "src": "sw.js",
         "scope": "/"
     }
-    
+
 
 }

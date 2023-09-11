@@ -20,7 +20,7 @@
         "src" : "img/icon/maskable_icon_x144.png",
         "sizes" : "144x144",
         "type" : "image/png",
-        "purpose" : "maskable"
+        "purpose" : "any maskable"
     },{
         "src" : "img/icon/maskable_icon_x128.png",
         "sizes" : "128x128",
@@ -45,5 +45,19 @@
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#2e2e2c",
-    "theme_color": "#adb2ae"
+    "theme_color": "#adb2ae",
+    "description": "Site web de Marie-Yannick Boyer, massothérapeute",
+    "lang": "fr-CA",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "related_applications": [{
+        "platform": "web"
+    }],
+    "scope": "/",
+    "serviceworker": {
+        "src": "sw.js",
+        "scope": "/"
+    }
+    
+
 }

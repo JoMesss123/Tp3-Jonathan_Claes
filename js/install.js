@@ -32,7 +32,7 @@ function installPWA(evt) {
         });
 
 }
-windows.addEventListener('appinstalled', logAppInstalled);
+window.addEventListener('appinstalled', logAppInstalled);
 
 
 function logAppInstalled(evt) {

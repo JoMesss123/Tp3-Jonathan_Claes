@@ -48,16 +48,14 @@
     "theme_color": "#adb2ae",
     "description": "Site web de Marie-Yannick Boyer, massothérapeute",
     "lang": "fr-CA",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
+    
     "related_applications": [{
         "platform": "web"
-    }],
-    "scope": "/",
-    "serviceworker": {
-        "src": "service-worker.js",
-        "scope": "/"
-    }
+    }]
+
+    
+   
+    
 
 
 }

@@ -64,5 +64,5 @@ form.addEventListener('submit', (e) => {
     }
 });
 
-// Path: js/scroll.js
+// Path: js/validation.js
 

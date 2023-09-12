@@ -2,6 +2,10 @@
 
 url: (http://masso.web1337.net/)
 
+et 
+
+pour github page (service -worker ) https://jomesss123.github.io/Tp3-Jonathan_Claes/index.html
+
 page dacceuil
     widget- actif pour seulement 200 view par mois 
 
